@@ -1,0 +1,31 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #4361ee;
+    padding: 0.3rem 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    .header_logo {
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
+    .header_loginbtn {
+        background: #ffffff;
+        color: #000000;
+        text-transform: capitalize;
+        font-size: 1rem;
+        margin: 0 1rem;
+
+        &:hover {
+            background: #e7e7e7;
+        }
+    }
+    .header_cartbtn {
+        color: #ffffff;
+        width: 35px;
+    }
+}
