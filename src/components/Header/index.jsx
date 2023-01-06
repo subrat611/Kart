@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Card } from "@mui/material";
+import { Button } from "@mui/material";
 
 import styles from "./header.module.scss";
 
@@ -15,7 +15,7 @@ export default function Header() {
         </Button>
         <Button variant="text">
           <svg
-            xmlns="http://www.w3.org/2000/svg"  
+            xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
             className={`${styles.header_cartbtn} ionicon`}
           >
