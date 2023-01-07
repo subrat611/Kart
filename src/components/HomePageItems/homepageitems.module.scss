@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
+
+    .itemContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;  
+        margin: 0.5rem 1rem;
+        width: 250px;
+        height: 390px;
+
+        .itemImage {
+            width: 200px;
+            height: 220px;
+        }
+
+        p {
+            margin: 0.5rem 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .itemTitle {
+            color: #353535;
+            padding: 1rem 0 0.5rem 0;
+        }
+
+        span {
+            font-weight: bold;
+            font-family: 'Poppins',sans-serif;
+        }
+    }
+}
