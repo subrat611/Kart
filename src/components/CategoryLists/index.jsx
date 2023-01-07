@@ -17,8 +17,8 @@ export default function CategoryLists() {
     <Card className={styles.categoryContainer}>
       <div className={styles.categoryLists}>
         {categorylists.map((item, i) => (
-          <a href={i}>
-            <Item imgLink={item.imgLink} itemName={item.categoryName} key={i} />
+          <a href={i} key={i}>
+            <Item imgLink={item.imgLink} itemName={item.categoryName} />
           </a>
         ))}
       </div>
