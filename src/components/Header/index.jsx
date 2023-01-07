@@ -11,9 +11,11 @@ export default function Header() {
       <span className={styles.header_logo}>KartShop</span>
       {/* Search Bar */}
       <div>
-        <Button variant="contained" className={styles.header_loginbtn}>
-          Login
-        </Button>
+        <a href="/login">
+          <Button variant="contained" className={styles.header_loginbtn}>
+            Login
+          </Button>
+        </a>
         <Button variant="text">
           <ShoppingCartIcon className={`${styles.header_cartbtn} ionicon`} />
         </Button>
